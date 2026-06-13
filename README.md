@@ -5,7 +5,7 @@ An automated quantitative analysis pipeline that extracts multi-statement financ
 ##  Live Dashboard Preview
 Cross-pillar performance vectors (Growth, Profitability, Liquidity, Valuation) compared against the sector average:
 
-![Financial Dashboard](financial_dashboard.png)
+src/financial_dashboard.png
 
 ##  System Architecture & Workflow
 - **Data Ingestion (`src/data_loader.py`):** Programmatically connects to `yfinance` to fetch financial matrices. Aligns Balance Sheets, Income Statements, and Cash Flow metrics via time-series index anchoring.
